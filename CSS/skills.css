@@ -1,0 +1,111 @@
+.linkSkills {
+  color: rgb(102, 153, 204) !important;
+  text-decoration: underline !important;
+}
+
+.skillsContent {
+  flex: 1;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 10%;
+}
+
+.videoContainer{
+  width: 100%;
+  background-color: rgb(217, 217, 217);
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 3%;
+  height: auto;
+}
+
+video{
+  border-radius: 10px;
+  width: 80%;
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  background-color: rgb(217, 217, 217);
+  width: 100%;
+  padding: 30px 20px;
+  border-radius: 25px;
+  gap: 20px;
+  align-items: stretch;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.line .text {
+  width: 100px;
+  flex-shrink: 0;
+  text-align: left;
+  margin: 0;
+}
+
+#percentage {
+  color: rgb(102, 153, 204);
+}
+
+.percent {
+  width: 50px;
+  flex-shrink: 0;
+  text-align: right;
+  margin: 0;
+}
+
+.bar-wrapper {
+  flex: 1;
+  height: 30px;
+  background-color: rgb(189, 189, 189);
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.bar-A {
+  width: 60%;
+  background-color: rgb(102, 153, 204);
+}
+.bar-B {
+  width: 30%;
+  background-color: rgb(102, 153, 204);
+}
+.bar-C {
+  width: 90%;
+  background-color: rgb(102, 153, 204);
+}
+.bar-D {
+  width: 80%;
+  background-color: rgb(102, 153, 204);
+}
+.bar-E {
+  width: 100%;
+  background-color: rgb(102, 153, 204);
+}
+
+.title {
+  align-self: flex-start;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #5d97c7;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.linkUeber {
+  color: rgb(102, 153, 204) !important;
+  text-decoration: underline !important;
+}
+
+ul{
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  flex: 1;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.info-box {
+  background-color: rgb(217, 217, 217);
+  border-radius: 15px;
+  padding: 15px 20px;
+  flex: 1;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.text p {
+  margin: 5px 0;
+}
+
+.profile-img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+  flex-shrink: 0;
+  background-color: white;
+}
+
+.timeline-box {
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  padding: 30px 20px;
+  margin-top: 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.timeline {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: #003366;
+  z-index: 0;
+}
+
+.timeline-item {
+  position: relative;
+  text-align: center;
+  flex: 1;
+  z-index: 1;
+}
+
+#label {
+  margin-bottom: 10px;
+}
+
+.dot {
+  width: 18px;
+  height: 18px;
+  background-color: #5d97c7;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 4px;
+}
+
+#year {
+  font-size: 20px;
+  color: #5d97c7;
+  margin: 5px 0;
+}
+
+.footer {
+  background-color: #003366;
+  color: white;
+  text-align: right;
+  padding: 10px 20px;
+  margin-top: auto;
+}
+
+.footerText {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footerText:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  footer{
+    z-index: 1000;
+  }
+  .top-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeline {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeline::before {
+    width: 4px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .timeline-item {
+    margin: 40px 0;
+  }
+  .footer{
+    position: fixed !important;
+    bottom: 0 !important;
+  }
+  .timeline-box{
+    margin-bottom: 15%;
+  }
+  .wrapper{
+    margin-bottom: 8%;
+  }
+}

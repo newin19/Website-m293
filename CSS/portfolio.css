@@ -1,0 +1,66 @@
+.linkPortfolio {
+  color: rgb(102, 153, 204) !important;
+  text-decoration: underline !important;
+}
+
+.portfolioContent {
+  padding: 3%;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projekt1,
+.projekt2 {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgb(217, 217, 217);
+  border-radius: 25px;
+  padding: 10px;
+  gap: 5%;
+  width: 100%;
+}
+
+.pictureProject {
+  width: 30%;
+  max-width: 300px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 25px;
+  flex-shrink: 0;
+}
+
+.projectDescription {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.projekt2 {
+  margin-top: 2%;
+}
+
+.title {
+  align-self: flex-start;
+}
+
+.text {
+  margin-top: 5%;
+}
+
+@media all and (max-width: 950px) {
+  .projekt1,
+  .projekt2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .portfolioContent{
+    margin-bottom: 10%;
+  }
+}

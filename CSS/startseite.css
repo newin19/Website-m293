@@ -1,0 +1,62 @@
+.linkStartseite {
+  color: rgb(102, 153, 204) !important;
+  text-decoration: underline !important;
+}
+
+.startsiteContainer {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(102, 153, 204);
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.startsiteContent {
+  display: flex;
+  height: 75%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(217, 217, 217);
+  border-radius: 25px;
+  width: 90%;
+  padding: 2rem;
+  gap: 1.5rem;
+}
+
+.title {
+  justify-self: center;
+  font-family: "Itim", cursive;
+  font-size: 2.5em;
+  margin-bottom: 1rem;
+  color: rgb(0, 47, 95);
+}
+
+.textWelcome {
+  font-family: "Itim", cursive;
+  font-size: 2em;
+  margin: 0;
+  color: black;
+}
+
+
+.figure {
+  height: 80vh;
+  object-fit: contain;
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+}
+
+@media screen and (max-width: 990px) {
+  .figure {
+    display: none;
+  }
+  .startsiteContent {
+    align-items: center;
+    justify-content: center;
+  }
+}
