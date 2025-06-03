@@ -41,7 +41,7 @@ form {
 button {
   align-self: flex-end;
   padding: 10px 20px;
-  background-color: #336699;
+  background-color: rgb(0, 59, 109);
   color: white;
   border: none;
   border-radius: 5px;
@@ -65,10 +65,14 @@ textarea {
 
 label,
 .formtext,
-.text {
+label .text {
   font-size: 1em !important;
   font-family: "Itim";
-  color: #336699;
+  color: rgb(0, 59, 109);
+}
+
+#choose{
+  font-size: 1em !important;
 }
 
 .anrede-option .text {
@@ -99,6 +103,9 @@ label,
   width: 100%;
 }
 
+li{
+  font-size: 1em !important;
+}
 .anrede-row {
   display: flex;
   align-items: center;
@@ -106,9 +113,12 @@ label,
   margin-bottom: 15px;
 }
 
-.anrede-option {
+.anrede-option  {
   display: flex;
   gap: 5px;
+}
+#lastAnrede{
+  margin-left: 20%;
 }
 
 button {
@@ -117,4 +127,14 @@ button {
   font-size: 1rem;
   cursor: pointer;
   font-family: "Itim";
+}
+
+@media all and (max-width: 700px) {
+  #lastAnrede{
+    margin: 3%;
+  }
+  .anrede-option{
+    min-width: 55px;
+  }
+
 }
