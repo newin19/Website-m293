@@ -44,7 +44,7 @@ ul{
 
 .title {
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 .text p {
@@ -112,7 +112,7 @@ ul{
 }
 
 #year {
-  font-size: 20px;
+  font-size: 1.2em;
   color: #5d97c7;
   margin: 5px 0;
 }
@@ -125,15 +125,6 @@ ul{
   margin-top: auto;
 }
 
-.footerText {
-  color: white;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-.footerText:hover {
-  text-decoration: underline;
-}
 
 @media screen and (max-width: 600px) {
   footer{
@@ -165,7 +156,7 @@ ul{
     bottom: 0 !important;
   }
   .timeline-box{
-    margin-bottom: 15%;
+    margin-bottom: 20%;
   }
   .wrapper{
     margin-bottom: 8%;
