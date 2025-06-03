@@ -13,7 +13,7 @@
   margin-bottom: 20%;
 }
 
-.videoContainer{
+.videoContainer {
   width: 100%;
   background-color: rgb(217, 217, 217);
   border-radius: 25px;
@@ -26,7 +26,7 @@
   overflow-y: hidden;
 }
 
-video{
+video {
   border-radius: 10px;
   width: 80%;
   height: 100%;

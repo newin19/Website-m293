@@ -17,8 +17,12 @@
   background-color: rgb(217, 217, 217);
   border-radius: 24px;
   padding: 20px;
-  width: 30%;
+  width: auto;
 }
-footer{
+footer {
   left: 0;
+}
+
+ul{
+  text-decoration: none;
 }

@@ -42,12 +42,11 @@
   color: black;
 }
 
-.textContainer{
+.textContainer {
   max-width: 50%;
   height: 100%;
   text-wrap: wrap;
 }
-
 
 .figure {
   height: 80vh;
@@ -66,7 +65,7 @@
     justify-content: center;
     height: auto;
   }
-  .textContainer{
+  .textContainer {
     align-self: center;
     max-width: none;
   }

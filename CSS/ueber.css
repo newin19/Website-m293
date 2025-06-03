@@ -13,7 +13,7 @@ body {
   text-decoration: underline !important;
 }
 
-ul{
+ul {
   text-decoration: none;
 }
 
@@ -37,8 +37,11 @@ ul{
 .info-box {
   background-color: rgb(217, 217, 217);
   border-radius: 15px;
-  padding: 15px 20px;
-  flex: 1;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  height: auto;
   box-sizing: border-box;
 }
 
@@ -90,6 +93,10 @@ ul{
   z-index: 0;
 }
 
+footer{
+  z-index: 100;
+}
+
 .timeline-item {
   position: relative;
   text-align: center;
@@ -125,9 +132,8 @@ ul{
   margin-top: auto;
 }
 
-
-@media screen and (max-width: 600px) {
-  footer{
+@media screen and (max-width: 660px) {
+  footer {
     z-index: 1000;
   }
   .top-section {
@@ -151,14 +157,14 @@ ul{
   .timeline-item {
     margin: 40px 0;
   }
-  .footer{
+  .footer {
     position: fixed !important;
     bottom: 0 !important;
   }
-  .timeline-box{
-    margin-bottom: 20%;
+  .timeline-box {
+    margin-bottom: 25%;
   }
-  .wrapper{
+  .wrapper {
     margin-bottom: 8%;
   }
 }
