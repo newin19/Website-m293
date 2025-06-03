@@ -42,6 +42,12 @@
   color: black;
 }
 
+.textContainer{
+  max-width: 50%;
+  height: 100%;
+  text-wrap: wrap;
+}
+
 
 .figure {
   height: 80vh;
@@ -58,5 +64,10 @@
   .startsiteContent {
     align-items: center;
     justify-content: center;
+    height: auto;
+  }
+  .textContainer{
+    align-self: center;
+    max-width: none;
   }
 }

@@ -23,11 +23,13 @@
   padding: 10px;
   margin-top: 3%;
   height: auto;
+  overflow-y: hidden;
 }
 
 video{
   border-radius: 10px;
   width: 80%;
+  height: 100%;
 }
 
 .chart {
